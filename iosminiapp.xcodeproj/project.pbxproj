@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2F4956ED1F6EF9550028623A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4956EC1F6EF9550028623A /* AppDelegate.swift */; };
-		2F4956EF1F6EF9550028623A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4956EE1F6EF9550028623A /* ViewController.swift */; };
 		2F4956F21F6EF9550028623A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4956F01F6EF9550028623A /* Main.storyboard */; };
 		2F4956F41F6EF9550028623A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4956F31F6EF9550028623A /* Assets.xcassets */; };
 		2F4956F71F6EF9550028623A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4956F51F6EF9550028623A /* LaunchScreen.storyboard */; };
 		2F4957021F6EF9550028623A /* iosminiappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4957011F6EF9550028623A /* iosminiappTests.swift */; };
 		2F49570D1F6EF9550028623A /* iosminiappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F49570C1F6EF9550028623A /* iosminiappUITests.swift */; };
+		2F49571B1F6EFAB30028623A /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F49571A1F6EFAB30028623A /* AddItemViewController.swift */; };
+		2F49571D1F6EFAC50028623A /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F49571C1F6EFAC50028623A /* EditItemViewController.swift */; };
+		2F49571F1F6EFADC0028623A /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F49571E1F6EFADC0028623A /* BucketItem.swift */; };
+		2F4957211F6EFAF10028623A /* BucketListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4957201F6EFAF00028623A /* BucketListTableViewController.swift */; };
+		2F4957231F6EFB170028623A /* BucketListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4957221F6EFB170028623A /* BucketListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		2F4956E91F6EF9550028623A /* iosminiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosminiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4956EC1F6EF9550028623A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F4956EE1F6EF9550028623A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F4956F11F6EF9550028623A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F4956F31F6EF9550028623A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F4956F61F6EF9550028623A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		2F4957081F6EF9550028623A /* iosminiappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosminiappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F49570C1F6EF9550028623A /* iosminiappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosminiappUITests.swift; sourceTree = "<group>"; };
 		2F49570E1F6EF9550028623A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F49571A1F6EFAB30028623A /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		2F49571C1F6EFAC50028623A /* EditItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
+		2F49571E1F6EFADC0028623A /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		2F4957201F6EFAF00028623A /* BucketListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListTableViewController.swift; sourceTree = "<group>"; };
+		2F4957221F6EFB170028623A /* BucketListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				2F4956EC1F6EF9550028623A /* AppDelegate.swift */,
-				2F4956EE1F6EF9550028623A /* ViewController.swift */,
 				2F4956F01F6EF9550028623A /* Main.storyboard */,
+				2F49571A1F6EFAB30028623A /* AddItemViewController.swift */,
+				2F49571C1F6EFAC50028623A /* EditItemViewController.swift */,
+				2F49571E1F6EFADC0028623A /* BucketItem.swift */,
+				2F4957201F6EFAF00028623A /* BucketListTableViewController.swift */,
+				2F4957221F6EFB170028623A /* BucketListTableViewCell.swift */,
 				2F4956F31F6EF9550028623A /* Assets.xcassets */,
 				2F4956F51F6EF9550028623A /* LaunchScreen.storyboard */,
 				2F4956F81F6EF9550028623A /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4956EF1F6EF9550028623A /* ViewController.swift in Sources */,
+				2F4957211F6EFAF10028623A /* BucketListTableViewController.swift in Sources */,
 				2F4956ED1F6EF9550028623A /* AppDelegate.swift in Sources */,
+				2F4957231F6EFB170028623A /* BucketListTableViewCell.swift in Sources */,
+				2F49571B1F6EFAB30028623A /* AddItemViewController.swift in Sources */,
+				2F49571F1F6EFADC0028623A /* BucketItem.swift in Sources */,
+				2F49571D1F6EFAC50028623A /* EditItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
